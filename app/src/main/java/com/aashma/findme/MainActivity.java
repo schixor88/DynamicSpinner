@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
+
 
         //the linear layout where we show our spinner and buttons
         linearLayout = new LinearLayout(this);
@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
         //
 
         editText = new EditText(this);
+        editText.setHint("Any number between 1 and 8");
         linearLayout.addView(editText);
+
 
 
 
